@@ -13,6 +13,7 @@
 		493BFDD31E802118001752E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493BFDD11E802118001752E7 /* Main.storyboard */; };
 		493BFDD51E802118001752E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493BFDD41E802118001752E7 /* Assets.xcassets */; };
 		493BFDD81E802119001752E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493BFDD61E802119001752E7 /* LaunchScreen.storyboard */; };
+		493BFDE11E8026A2001752E7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493BFDE01E8026A2001752E7 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		493BFDD41E802118001752E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493BFDD71E802119001752E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493BFDD91E802119001752E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493BFDDF1E8026A2001752E7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		493BFDE01E8026A2001752E7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				493BFDD61E802119001752E7 /* LaunchScreen.storyboard */,
 				493BFDD91E802119001752E7 /* Info.plist */,
 				493BFDC81E802118001752E7 /* Supporting Files */,
+				493BFDDF1E8026A2001752E7 /* MyScrollView.h */,
+				493BFDE01E8026A2001752E7 /* MyScrollView.m */,
 			);
 			path = MyScrollView;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493BFDD01E802118001752E7 /* ViewController.m in Sources */,
+				493BFDE11E8026A2001752E7 /* MyScrollView.m in Sources */,
 				493BFDCD1E802118001752E7 /* AppDelegate.m in Sources */,
 				493BFDCA1E802118001752E7 /* main.m in Sources */,
 			);
